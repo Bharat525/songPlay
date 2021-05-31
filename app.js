@@ -53,22 +53,22 @@ function loadSong(song){
 
 
 // PLAY BTN EVENTLISTNER
-playEl.addEventListener('click' , RUN);
+playEl.addEventListener('click' , 
 
 
 function RUN(){
     const isPlaying = mainContainer.classList.contains('play');
     
     if(isPlaying){
-        pausedSong()
-        
-        
-    }else{
        
         playSong()
+        
+    }else{
+        pausedSong()
+        
        
     }
-}
+})
 
 
 
